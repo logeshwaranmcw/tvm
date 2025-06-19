@@ -598,7 +598,7 @@ def test_hardtanh():
     verify_model(Hardtanh2(), example_args, {}, expected1)
     verify_model(Hardtanh3(), example_args, {}, expected1)
 
-
+#test for softplus op
 def test_softplus():
     import torch
     from torch.nn import Module
